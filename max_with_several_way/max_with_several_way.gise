@@ -175,54 +175,71 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602610929" xil_pn:in_ck="-2728524513393253948" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-8594648408326904153" xil_pn:start_ts="1602610916">
+    <transform xil_pn:end_ts="1602610984" xil_pn:in_ck="-9061304114346774363" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-8594648408326904153" xil_pn:start_ts="1602610975">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="with_dataflow2.lso"/>
+      <outfile xil_pn:name="with_dataflow2.ngc"/>
+      <outfile xil_pn:name="with_dataflow2.ngr"/>
+      <outfile xil_pn:name="with_dataflow2.prj"/>
+      <outfile xil_pn:name="with_dataflow2.stx"/>
+      <outfile xil_pn:name="with_dataflow2.syr"/>
+      <outfile xil_pn:name="with_dataflow2.xst"/>
+      <outfile xil_pn:name="with_dataflow2_xst.xrpt"/>
+      <outfile xil_pn:name="xst"/>
     </transform>
     <transform xil_pn:end_ts="1602608233" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1404955367747055999" xil_pn:start_ts="1602608233">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1602610937" xil_pn:in_ck="3889147349694507767" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8702482402489678528" xil_pn:start_ts="1602610929">
+    <transform xil_pn:end_ts="1602610990" xil_pn:in_ck="3889147349694507767" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8702482402489678528" xil_pn:start_ts="1602610984">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="with_dataflow2.bld"/>
+      <outfile xil_pn:name="with_dataflow2.ngd"/>
+      <outfile xil_pn:name="with_dataflow2_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1602610951" xil_pn:in_ck="-8102564651216272693" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1602610937">
+    <transform xil_pn:end_ts="1602610998" xil_pn:in_ck="-8102564651216272693" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1602610990">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="with_dataflow2.pcf"/>
+      <outfile xil_pn:name="with_dataflow2_map.map"/>
+      <outfile xil_pn:name="with_dataflow2_map.mrp"/>
+      <outfile xil_pn:name="with_dataflow2_map.ncd"/>
+      <outfile xil_pn:name="with_dataflow2_map.ngm"/>
+      <outfile xil_pn:name="with_dataflow2_map.xrpt"/>
+      <outfile xil_pn:name="with_dataflow2_summary.xml"/>
+      <outfile xil_pn:name="with_dataflow2_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1602610968" xil_pn:in_ck="-4118800761206085187" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-5189723633469429705" xil_pn:start_ts="1602610951">
+    <transform xil_pn:end_ts="1602611010" xil_pn:in_ck="-4118800761206085187" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-5189723633469429705" xil_pn:start_ts="1602610998">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="with_dataflow2.ncd"/>
+      <outfile xil_pn:name="with_dataflow2.pad"/>
+      <outfile xil_pn:name="with_dataflow2.par"/>
+      <outfile xil_pn:name="with_dataflow2.ptwx"/>
+      <outfile xil_pn:name="with_dataflow2.unroutes"/>
+      <outfile xil_pn:name="with_dataflow2.xpi"/>
+      <outfile xil_pn:name="with_dataflow2_pad.csv"/>
+      <outfile xil_pn:name="with_dataflow2_pad.txt"/>
+      <outfile xil_pn:name="with_dataflow2_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1602610968" xil_pn:in_ck="-3689879152921327421" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1602610961">
+    <transform xil_pn:end_ts="1602611010" xil_pn:in_ck="-3689879152921327421" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1602611005">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="with_dataflow2.twr"/>
+      <outfile xil_pn:name="with_dataflow2.twx"/>
     </transform>
   </transforms>
 
