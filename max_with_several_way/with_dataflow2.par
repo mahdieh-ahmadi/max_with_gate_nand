@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-DESKTOP-RBQDBFC::  Tue Oct 13 20:27:29 2020
+DESKTOP-RBQDBFC::  Tue Oct 13 21:13:19 2020
 
 par -w -intstyle ise -ol high -mt off with_dataflow2_map.ncd with_dataflow2.ncd
 with_dataflow2.pcf 
@@ -93,7 +93,7 @@ Phase  2  : 28 unrouted;      REAL time: 3 secs
 
 Phase  3  : 30 unrouted;      REAL time: 3 secs 
 
-Phase  4  : 30 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+Phase  4  : 30 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
 
 Updating file: with_dataflow2.ncd with current fully routed design.
 

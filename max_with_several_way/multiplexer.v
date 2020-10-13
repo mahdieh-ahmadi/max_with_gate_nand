@@ -19,11 +19,6 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module multiplexer(
-output out,
-input i0, i1, i2, i3, s1,s0
-    );
-
-	with_nand(out , i0, i1, i2, i3, s1,s0);
-	with_dataflow1(out , i0, i1, i2, i3, s1,s0);
-	with_dataflow2(i0, i1, i2, i3 , s1,s0 , out);
+);
+  
 endmodule
