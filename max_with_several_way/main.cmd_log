@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/main.xst" -ofn "E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm with_dataflow1.bmm -p xc6slx4-tqg144-3 main.ngc main.ngd  
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/main.xst" -ofn "E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm with_dataflow1.bmm -p xc6slx4-tqg144-3 main.ngc main.ngd  

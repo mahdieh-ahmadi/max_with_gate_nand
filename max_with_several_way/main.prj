@@ -1,0 +1,4 @@
+verilog work "with_nand.v"
+verilog work "with_dataflow2.v"
+verilog work "with_dataflow1.v"
+verilog work "main.v"
