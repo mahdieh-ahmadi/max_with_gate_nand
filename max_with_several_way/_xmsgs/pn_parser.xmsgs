@@ -8,5 +8,14 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/with_dataflow1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/with_dataflow2.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;E:/university/3991/fpga/homeworks/max_with_sevral_way/max_with_several_way/with_nand.v&quot; into library work</arg>
+</msg>
+
 </messages>
 
